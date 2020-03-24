@@ -19,19 +19,19 @@ And the output name from file:
 ```python
 with open('lab_vpn.txt', "w") as my_output_file
 ```
-This line you cam model what do you want to write inside the output file
+This line you can model what do you want to write inside the output file
 
 ```python
  my_output_file.write("list=${list}"+ "\" " + parts[1] + "\""  + "  #" + parts[0] + "\n")
  ```
  Improve this code;
  
- Type filename input and output
+**1 -  Type filename input and output**
  
- conection directly in the same script.
+**2 - conection directly in the same script.**
  
- show log to user.
+ **3 - show log to user.**
  
  
- Good luck for everyone.
+ *Good luck for everyone.*
  
