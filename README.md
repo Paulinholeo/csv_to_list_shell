@@ -11,16 +11,19 @@ for input on my shell script
 
 Firt open the file imput csv.
 
+```python
 with open('vpns.csv', 'r') as file:
-
+```
 And the output name from file:
 
+```python
 with open('lab_vpn.txt', "w") as my_output_file
-
+```
 This line you cam model what do you want to write inside the output file
 
+```python
  my_output_file.write("list=${list}"+ "\" " + parts[1] + "\""  + "  #" + parts[0] + "\n")
- 
+ ```
  Improve this code;
  
  Type filename input and output
